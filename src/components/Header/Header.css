@@ -1,0 +1,163 @@
+.header_section {
+  background-color: var(--black); 
+  text-align: center;
+ height: 4.063rem;
+ overflow: hidden;
+ padding-right: 10rem;
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+   
+}
+.header_buttons_group{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+
+
+
+
+.header_buttons_group .header_buttons {
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(180deg, var(--orange), #BD5313);
+    border-radius: 4px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: var(--fs-650);
+    font-family: "Roboto", sans-serif;
+    width: 8.75rem;
+    height: 2.563rem;
+    font-weight: var(--fw-semi-bold);
+    cursor: pointer;
+   }
+   
+   .header_buttons_group .header_buttons:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #BD5313;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+
+
+   /* inverse button */
+
+   .header_buttons_group .inverse_button {
+    border: none;
+    color: #fff;
+    background: transparent !important;
+    border-radius: 4px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: var(--fs-650);
+    font-family: "Roboto", sans-serif;
+    width: 8.75rem;
+    height: 2.563rem;
+    font-weight: var(--fw-semi-bold);
+    border: 2px solid #BD5313;
+    cursor: pointer;
+   }
+   
+   .header_buttons_group .inverse_button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #BD5313;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+
+   @media (max-width:41.063em) {
+  .logo_image{
+    width: 15rem;
+   
+  }
+   }
+
+   @media (max-width:32.25em) {
+    .logo_image{
+      width: 10rem;
+     
+    }
+    .header_buttons_group .header_buttons {
+        border: none;
+        color: #fff;
+        background-image: linear-gradient(180deg, var(--orange), #BD5313);
+        border-radius: 4px;
+        background-size: 100% auto;
+        font-family: inherit;
+        font-size: var(--fs-650);
+        font-family: "Roboto", sans-serif;
+        width: 4.75rem;
+        height: 2.563rem;
+        font-weight: var(--fw-semi-bold);
+        cursor: pointer;
+       }
+       .header_buttons_group .inverse_button {
+        border: none;
+        color: #fff;
+        background: transparent !important;
+        border-radius: 4px;
+        background-size: 100% auto;
+        font-family: inherit;
+        font-size: var(--fs-650);
+        font-family: "Roboto", sans-serif;
+        width: 4.75rem;
+        height: 2.563rem;
+        font-weight: var(--fw-semi-bold);
+        border: 2px solid #BD5313;
+        cursor: pointer;
+       }
+     }
+
+     @media (max-width:28.375em) {
+        .logo_image{
+          width: 10rem;
+         
+        }
+         }
+
+         @media (max-width:56em) {
+            .header_section {
+                background-color: var(--black); 
+                text-align: center;
+               height: 4.063rem;
+               overflow: hidden;
+               padding-right: 1rem;
+              }
+             }
+
