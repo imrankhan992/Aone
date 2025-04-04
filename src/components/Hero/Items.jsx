@@ -28,7 +28,7 @@ const Items = () => {
     ];
   return (
     <div className='item_container'>
-        <h1 className='head_items'>为什么选择<img src="https://aone33agent.online/assets/img/landing_page/logo.png" alt="logo one" width={160} height={38} srcset="" /></h1>
+        <h1 className='head_items'>为什么选择<img height={50} width={100} src={"https://images-utils.filev33344411.xyz/websites/bossclub/new_logo.png"} alt="logo one" srcset="" /></h1>
        <div className='container_container'>
        <div >
             <button className='items_button'>代理</button>

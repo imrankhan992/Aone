@@ -26,7 +26,7 @@ export default function AoneTabs() {
   return (
     <div className="tab_container">
       <h2 className="main_heading">
-      为什么选择<img height={24} width={100} src='https://aone33agent.online/assets/img/landing_page/logo.png' alt="logo" />?
+      为什么选择<img height={50} width={100} src={"https://images-utils.filev33344411.xyz/websites/bossclub/new_logo.png"}  alt="logo" />?
       </h2>
       <TabGroup>
         <TabList className="tab_buttons">

@@ -6,7 +6,7 @@ const Footer = () => {
 
         <div className='footer_section_container'>
             <div>
-                <img width={200} height={60} src="https://aone33agent.online/assets/img/footer/aone_icon.png" alt="" />
+                <img width={200} height={100} src={"https://images-utils.filev33344411.xyz/websites/bossclub/new_logo.png"} alt="" />
             </div>
             <div>
                <div>

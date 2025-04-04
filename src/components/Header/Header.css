@@ -3,13 +3,20 @@
   text-align: center;
  height: 4.063rem;
  overflow: hidden;
- padding-right: 10rem;
+ padding-inline: 10rem;
+ display: flex;
+ justify-content: space-between;
+ width: 100%;
+ align-items: center;
+ 
+ 
 }
 .header_container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+  
+    width: 100%;
     
    
 }
@@ -157,7 +164,7 @@
                 text-align: center;
                height: 4.063rem;
                overflow: hidden;
-               padding-right: 1rem;
+               padding-inline: 1rem;
               }
              }
 
